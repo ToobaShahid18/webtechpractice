@@ -1,0 +1,138 @@
+#mid-image{
+    text-align: center;
+    
+    padding: 20px;
+    background-image: url("mountain.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    border-radius: 10px;
+    margin: 10px 20px 0px 20px;
+}
+
+.My-part{
+    display: flex;
+   
+    
+}
+
+.sub-form,.graphics{
+    margin:20px 20px 20px 20px;
+    height: 550px;
+    background-color: #f4f8fc;
+    padding: 20px;
+    border-radius: 10px;  
+    border: 1px solid #b8d8ed;  
+}
+.sub-form{
+    width: 70%;
+    
+}
+
+.graphics{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sub-form,.graphics h1,h2,h3{
+
+    color: #123b65;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left-side{
+    width: 55%;
+}
+
+footer{
+    background-color: #123b65;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+input[type="text"],input[type="email"],input[type="password"]
+{
+    width:280px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #cbddea;
+    font-size: 20px;
+    border-radius: 8px;
+    
+}
+label{
+    width: 150px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #123b65;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type="submit"],input[type="reset"]
+{
+   
+    margin-top: 165px;
+}
+
+input[type="submit"]{
+    background-color: #7040d8;
+    color: white;
+    font-size: 16px;
+    padding: 20px 70px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+input[type="reset"]{
+    background-color: #e6edf5;
+    color: #123b65;
+    font-size: 16px;
+    padding: 20px 80px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+
+}
+
+input[type="checkbox"],input[type="radio"],select,textarea,option{
+    padding: 15px 30px;
+    margin-bottom: 18px;
+    font-size: 18px;
+    border: 1px solid #cbddea;
+    border-radius: 8px;
+    color: #526b83;
+}
+textarea{
+    padding: 20px 20px 0px 20px;
+    resize: none;
+    vertical-align: top;
+}
+#course2,#course3{
+    margin-left: 160px;
+}
+
+img{
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+    padding-top: 20px;
+    width: 300px;
+
+}

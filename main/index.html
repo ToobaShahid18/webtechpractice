@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team Project</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        h1 {
+            color: #17375e;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #555;
+            margin-bottom: 40px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            padding: 30px 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            width: 250px;
+            text-decoration: none;
+            color: #333;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        .card h2 {
+            color: #3769b0;
+            margin-bottom: 10px;
+        }
+        .card p {
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to Our Team Project</h1>
+
+    <div class="container">
+        <!-- Person 1 ka Page -->
+        <a href="../person1/index1.html" class="card">
+            <h2>Person 1</h2>
+            <p>Courses & Web Tech Home Page</p>
+        </a>
+
+        <!-- Person 2 ka Page -->
+        <a href="../person2/index2.html" class="card">
+            <h2>Person 2</h2>
+            <p>blocks Page</p>
+        </a>
+
+        <!-- Person 3 ka Page -->
+        <a href="../person3/index3.html" class="card">
+            <h2>Person 3</h2>
+            <p>form Page</p>
+        </a>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css" />
+  </head>
+  <body>
+    
+    <div class="My-part">
+      <div class="sub-form">
+        <h1>Registration Form</h1>
+        <form>
+          <div class="left-side">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" />
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" />
+            <br />
+            <label for="password">Password:</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your password"
+            />
+            <br />
+            <input type="submit" value="Register" />
+            <input type="reset" value="Reset" />
+          </div>
+
+          <div class="right-side">
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender" />
+            <label for="gender">Male</label>
+
+            <input type="radio" id="gender" name="gender" />
+            <label for="gender">Female</label>
+            <br /><br>
+            <label for="dept">Department:</label>
+            <select id="dept">
+              <option>Choose Department</option>
+              <option>CS</option>
+              <option>BBA</option>
+              <option>SE</option>
+              <option>ISLAMIYAT</option>
+              <option>ENGLISH</option>
+            </select>
+            <br /><br/>
+            <label for="course">Courses:</label>    
+            <input type="checkbox" id="course1" />
+            <label for="course1" >WebTechnologies</label>
+            <br />
+
+            <input type="checkbox" id="course2" />
+            <label for="course2" id="course-name">DatabaseSystem</label>
+            <br />
+            <input type="checkbox" id="course3" />
+            <label for="course3" id="course-name">Programming</label
+            >
+            <br /><br>
+
+            <label for="msg">Message:</label>
+            <textarea id="msg" rows="4" cols="25" placeholder="Enter your message"></textarea> 
+          </div>
+        </form>
+      </div>
+      <div class="graphics">
+        <h1>Listen to Our Message</h1>
+        <audio controls>
+          <source src="audio.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <img src="uni.jfif" alt="Image" class="image" />
+        <h2>Welcome to EduWorld!</h2>
+        <h3 >Join us and be a part of something great.</h3>
+      </div>
+    </div>
+
+    <footer>&copy; 2025 EduWorld. All rights reserved.</footer>
+  </body>
+</html>
